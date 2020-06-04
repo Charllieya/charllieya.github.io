@@ -82,6 +82,10 @@
     text-decoration: none;
 }
 
+.skills {
+    text-align: center;
+}
+
 .section-wrapper {
     background: #ffc900;
 }
