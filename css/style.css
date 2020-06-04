@@ -5,6 +5,10 @@
     border: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .logo {
     margin-top: -59px;
     margin-bottom: -58px;
@@ -80,6 +84,14 @@
     font-size: 15px;
     text-align: center;
     text-decoration: none;
+}
+
+.resume {
+    text-align: center;
+}
+
+.resume-wrapper {
+    margin-left: 78px;
 }
 
 .skills {
