@@ -9,8 +9,12 @@ html {
     scroll-behavior: smooth;
 }
 
+.mainImg {
+    border: 1px solid #000;
+}
+
 .logo {
-    margin-top: -59px;
+    margin-top: -20px;
     margin-bottom: -58px;
     margin-left: 60px;
 }
@@ -30,6 +34,19 @@ html {
     padding: 50px;
 }
 
+table {
+    font-family: arial, sans-serif;
+    /* border-collapse: collapse; */
+    width: 50%;
+}
+
+td,
+th {
+    /* border: 1px solid #dddddd; */
+    /* text-align: start; */
+    padding: 8px;
+}
+
 .name {
     font-size: 36px;
     color: #333;
@@ -37,6 +54,10 @@ html {
     font-family: raleway, sans-serif;
     font-weight: 700;
     padding-bottom: 10px;
+}
+
+a {
+    color: #000;
 }
 
 .name span {
@@ -57,12 +78,21 @@ html {
     padding: 50px;
 }
 
+.main-sentence {
+    font-family: raleway, sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    color: #333;
+    font-weight: 400;
+}
+
 .main-topic {
     font-size: 13px;
     line-height: 24px;
     color: #333;
     font-family: raleway, sans-serif;
     font-weight: 400;
+    border-bottom: 1px solid #000;
 }
 
 .nav-wrapper ul {
@@ -77,13 +107,29 @@ html {
 
 .nav-wrapper li a {
     display: inline;
-    padding: 6px 8px;
+    padding: 3px 8px;
     border-radius: 3px;
-    /* background-color: #000; */
     color: #000;
     font-size: 15px;
     text-align: center;
     text-decoration: none;
+}
+
+.resume-button {
+    display: inline-block;
+    text-align: center;
+    background-color: #680000;
+    width: 60%;
+    /* height: 100; */
+    /* padding: 10px 75px; */
+    /* border-radius: 40%; */
+    margin-top: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.resume-button a:hover {
+    color: #fff !important;
 }
 
 .resume {
@@ -108,16 +154,24 @@ html {
 
 .bottom-wrapper {
     background: #0a0a0a;
+    /* padding-top: 30px; */
 }
 
 .social-bar {
-    position: relative;
+    /* position: relative; */
     margin-top: 0px;
     padding: 5px 10px;
     border-radius: 0;
-    background: #083643;
+    background: #680000;
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.logo-bottom {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .footer-wrapper {
@@ -137,7 +191,6 @@ html {
     display: inline;
     padding: 6px 8px;
     border-radius: 3px;
-    /* background-color: #000; */
     color: #fff;
     font-size: 15px;
     text-align: center;
